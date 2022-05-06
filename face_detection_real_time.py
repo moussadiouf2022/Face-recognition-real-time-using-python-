@@ -21,6 +21,7 @@ while True:
         # condition to break out of while loop
         if cv.waitKey(20) == ord(' '):
             break
+    
         
 capture.release()
 cv.destroyAllWindows()
